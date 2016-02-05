@@ -73,9 +73,9 @@ public class CalorieConverter extends AppCompatActivity {
                 String itemselected = parent.getItemAtPosition(position).toString();
                 Toast.makeText(getBaseContext(), itemselected + " is selected", Toast.LENGTH_LONG).show();
                 if (calorieminratios.containsKey(itemselected)) {
-                    ((TextView) findViewById(R.id.textView2)).setText("         ⇈⇈⇈⇈MINS⇈⇈⇈⇈");
+                    ((TextView) findViewById(R.id.textView2)).setText("                              MINS                ");
                 } else {
-                    ((TextView) findViewById(R.id.textView2)).setText("         ⇈⇈⇈⇈REPS⇈⇈⇈⇈");
+                    ((TextView) findViewById(R.id.textView2)).setText("                              REPS                ");
                 }
 
             }
