@@ -9,7 +9,7 @@ Keshav Thvar ([kthvar@berkeley.edu](mailto:kthvar@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://vimeo.com/154352108)
+See [CANDY CRUNCH TIME] (https://vimeo.com/154352108)
 
 ## Screenshots
 
