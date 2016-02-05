@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#42e4d9"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.keshav.calorieconverter.CalorieConverter">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="350"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_marginTop="34dp"
+        android:layout_toEndOf="@+id/textView4"
+
+ />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:entries="@array/spinnerItems"
+        android:spinnerMode="dropdown"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignRight="@+id/textView4"
+ />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Exercise"
+        android:id="@+id/textView4"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="                  REPS/MINUTES "
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="convert"
+        android:id="@+id/button"
+        android:onClick="buttonOnClick"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignEnd="@+id/editText" />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calorie:"
+        android:id="@+id/mytextView"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignEnd="@+id/textView4" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:layout_marginTop="34dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/button"
+        android:layout_toStartOf="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW OTHER CONVERSIONS"
+        android:id="@+id/button2"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignEnd="@+id/button"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Weight(lbs): "
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignStart="@+id/mytextView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="150"
+        android:id="@+id/textView6"
+        android:layout_above="@+id/mytextView"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_alignTop="@+id/textView3" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:id="@+id/test_image"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/button2"
+        />
+
+
+
+</RelativeLayout>
