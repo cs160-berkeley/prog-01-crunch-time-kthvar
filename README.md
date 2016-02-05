@@ -19,6 +19,7 @@ See [CANDY CRUNCH TIME] (https://vimeo.com/154352108)
 <img src="screenshots/forjogging.png" height="400" alt="Screenshot"/>
 <img src="screenshots/otherequivalentexercises.png" height="400" alt="Screenshot"/>
 
+
 ## Acknowledgments
 
 * StackOverflow was an invaluable resource for learning how to code xml as well as understand Android
